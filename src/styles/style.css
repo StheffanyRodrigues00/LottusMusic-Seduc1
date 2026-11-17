@@ -12,13 +12,13 @@ header{
 ul{
     display: flex;
     gap: 20px;
-    list-style: none ;
+    list-style: none;
 }
 
 li a{
     color: var(--color-light);
-    text-decoration: none;
-    font-family: var(--font-body);
+    text-decoration: none;   
+    font-family: var(--font-body); 
 }
 
 .btn-primary{
@@ -27,16 +27,16 @@ li a{
     border-radius: 10px;
     color: var(--color-light);
     text-decoration: none;
-    font-family: var(--font-body);
+    font-family: var(--font-body); 
 }
 
 .btn-outline{
     border: 1px solid var(--color-light);
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 10px; 
     color: var(--color-light);
     text-decoration: none;
-    font-family: var(--font-body);
+    font-family: var(--font-body); 
 }
 
 .main-content .btn-primary{
@@ -64,9 +64,9 @@ h1{
 
 .text-highlight{
     color: var(--color-primary);
- } 
- 
- .main-content p{
+}
+
+.main-content p{
     color: var(--color-light);
     font-size: var(--font-size-body);
     width: 476px;
@@ -82,4 +82,106 @@ h1{
 .main-content nav{
     display: flex;
     gap: 10px;
+}
+
+.section-statistics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    background-color: var(--color-LottusBerry);
+    padding: 20px 0;
+}
+
+.section-statistics h2{
+    font-weight: 400;
+    color: var(--color-light);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-title);    
+}
+
+.section-statistics p{
+    color: var(--color-light);
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+}
+
+.section-statistics div{
+    text-align: center;
+}
+
+.section-records{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    background-color: var(--color-LottusNight);
+    padding: 90px 0;
+}
+
+.section-records h2{
+    color: var(--color-light);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-title);
+    font-weight: 400;
+}
+
+.records-container{
+    display: flex;
+    gap: 40px;
+}
+
+.records-card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;    
+}
+
+.records-card h3{
+    color: var(--color-light);
+    font-size: var(--font-size-h6);
+    font-family: var(--font-title);
+    font-weight: 400;
+}
+
+.section-highlights{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    background-color: var(--color-LottusDusk);
+}
+
+.highlights-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
+}
+
+.highlights-content h2{
+    color: var(--color-light);
+    font-size: var(--font-size-h2);
+    font-weight: 400;
+    font-family: var(--font-title);
+}
+
+.highlights-content p{
+    color: var(--color-light);
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+    width: 494px;    
+}
+
+.highlights-content nav{
+    display: flex;
+    gap: 10px;
+}
+
+
+.highlights-content .btn-primary{
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
